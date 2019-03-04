@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body
+{
+    margin: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+button
+{
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #efefee;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button#erhoehen
+{
+    background-color: #228aff;
+}
+
+button#erhoehen:hover
+{
+    background-color: #1e78de;
+}
+
+button#ready
+{
+    background-color: #55bd62;
+}
+
+button#ready:hover
+{
+    background-color: #469c51;
+}
+
+main
+{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    border: 1px solid #efefee;
+    margin-top: 3px;
+    text-align: left;
+}
+
+li.bot
+{
+    background-color: #feffb1;
+}
+
+li.you
+{
+    background-color: #cfffc1;
+}
+
+li.winBot
+{
+    background-color: #faff43;
+}
+
+li.win
+{
+    background-color: #76ff74;
+}
+
+li span
+{
+    float: right;
+}
